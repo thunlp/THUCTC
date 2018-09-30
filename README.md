@@ -49,7 +49,7 @@ THUCTC(THU Chinese Text Classification)是由清华大学自然语言处理实�
 2. 读取已经训练好的模型，对文件进行分类(runLoadModelAndUse)；
 3. 按照自己的想法添加训练文件，训练模型(AddFilesManuallyAndTrain)；
 
-###BasicTextClassifier类接口说明
+### BasicTextClassifier类接口说明
 
 BasicTextClassifier 是系统的入口类,提供多种设置接口供使用者调用。利用此入口类可以从文件中读入别信息、设置训练语料路径、设置训练参数以及模型保存路径等。
 
@@ -96,7 +96,7 @@ BasicTextClassifier 是系统的入口类,提供多种设置接口供使用者�
 	功能：获得测试准确率
 
 
-##中文文本分类数据集THUCNews
+## 中文文本分类数据集THUCNews
 
 THUCNews是根据新浪新闻RSS订阅频道2005~2011年间的历史数据筛选过滤生成，包含74万篇新闻文档（2.19 GB），均为UTF-8纯文本格式。我们在原始新浪新闻分类体系的基础上，重新整合划分出14个候选分类类别：财经、彩票、房产、股票、家居、教育、科技、社会、时尚、时政、体育、星座、游戏、娱乐。使用THUCTC工具包在此数据集上进行评测，准确率可以达到88.6%。
 
